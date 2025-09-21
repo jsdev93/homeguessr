@@ -1,0 +1,46 @@
+[
+  {
+    "address": {
+      "streetAddress": "310 S Argyle Ave APT 105",
+      "city": "Fresno",
+      "state": "CA",
+      "zipcode": "93727",
+      "neighborhood": null,
+      "community": null,
+      "subdivision": null
+    },
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "price": 195000,
+    "yearBuilt": 1975,
+    "longitude": -119.69355,
+    "latitude": 36.740448,
+    "lotAreaValue": 1698.84,
+    "lotAreaUnits": "Square Feet",
+    "lotSize": 1698,
+    "addressOrUrlFromInput": "https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/",
+    "rentZestimate": 1757
+  },
+  {
+    "address": {
+      "streetAddress": "3416 Floyd Ave",
+      "city": "Richmond",
+      "state": "VA",
+      "zipcode": "23221",
+      "neighborhood": null,
+      "community": null,
+      "subdivision": "None"
+    },
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "price": 675000,
+    "yearBuilt": 1924,
+    "longitude": -77.4845,
+    "latitude": 37.557472,
+    "lotAreaValue": 2696.364,
+    "lotAreaUnits": "Square Feet",
+    "lotSize": 2696,
+    "addressOrUrlFromInput": "https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/",
+    "rentZestimate": 2548
+  }
+]

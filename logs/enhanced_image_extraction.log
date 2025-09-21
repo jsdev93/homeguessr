@@ -1,0 +1,753 @@
+2025-09-20 19:38:55,084 - INFO - Loaded 3 properties to process
+2025-09-20 19:38:55,084 - INFO - Processing 3 properties
+2025-09-20 19:38:55,084 - INFO - Selenium available: True
+2025-09-20 19:38:55,085 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:38:55,085 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:38:55,313 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:38:55,313 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:38:55,358 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:38:55,358 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:38:57,743 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:38:57,744 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:39:13,104 - INFO - Found 50 images for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:39:13,545 - INFO - Found 50 images for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:39:18,112 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:39:18,236 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:39:18,236 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:39:19,895 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:39:34,641 - INFO - Found 50 images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:39:39,657 - INFO - Created backup: data/items.json.enhanced_backup
+2025-09-20 19:39:39,658 - INFO - Updated JSON saved: data/items.json
+2025-09-20 19:39:39,658 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 19:39:39,659 - INFO - Total properties: 3
+2025-09-20 19:39:39,659 - INFO - Processed: 3
+2025-09-20 19:39:39,659 - INFO - Successful: 3
+2025-09-20 19:39:39,659 - INFO - Failed: 0
+2025-09-20 19:39:39,659 - INFO - Selenium used: 3
+2025-09-20 19:39:39,659 - INFO - Total images: 150
+2025-09-20 19:39:39,660 - INFO - Success rate: 100.0%
+2025-09-20 19:39:39,660 - INFO - Avg images per property: 50.0
+2025-09-20 19:51:34,722 - ERROR - Error loading JSON: Expecting value: line 90 column 1 (char 2348)
+2025-09-20 19:51:34,722 - INFO - No properties need processing
+2025-09-20 19:52:23,171 - ERROR - Error loading JSON: Extra data: line 91 column 1 (char 2349)
+2025-09-20 19:52:23,172 - INFO - No properties need processing
+2025-09-20 19:53:39,084 - INFO - Loaded 4 properties to process
+2025-09-20 19:53:39,084 - INFO - Processing 4 properties
+2025-09-20 19:53:39,084 - INFO - Selenium available: True
+2025-09-20 19:53:39,084 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:53:39,085 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:53:39,313 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:53:39,313 - INFO - Trying Selenium to double-check 'See all' text for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:53:39,325 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:53:39,325 - INFO - Trying Selenium to double-check 'See all' text for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:53:41,471 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:53:41,473 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:53:53,194 - INFO - No 'See all' text found on https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/, skipping image extraction
+2025-09-20 19:53:53,386 - INFO - No 'See all' text found on https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/, skipping image extraction
+2025-09-20 19:53:53,506 - INFO - Skipped https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/ - no 'See all' text found
+2025-09-20 19:53:53,544 - INFO - Skipped https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/ - no 'See all' text found
+2025-09-20 19:53:58,508 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:53:58,551 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 19:53:58,671 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:53:58,677 - INFO - Trying Selenium to double-check 'See all' text for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:53:58,754 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 19:53:58,754 - INFO - Trying Selenium to double-check 'See all' text for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 19:54:00,356 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:54:00,357 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 19:54:11,937 - INFO - No 'See all' text found on https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, skipping image extraction
+2025-09-20 19:54:12,074 - INFO - No 'See all' text found on https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/, skipping image extraction
+2025-09-20 19:54:12,394 - INFO - Skipped https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/ - no 'See all' text found
+2025-09-20 19:54:12,429 - INFO - Skipped https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ - no 'See all' text found
+2025-09-20 19:54:17,444 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 19:54:17,445 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 19:54:17,445 - INFO - Total properties: 4
+2025-09-20 19:54:17,445 - INFO - Processed: 4
+2025-09-20 19:54:17,445 - INFO - Successful: 0
+2025-09-20 19:54:17,446 - INFO - Failed: 0
+2025-09-20 19:54:17,446 - INFO - Skipped (no 'See all'): 4
+2025-09-20 19:54:17,446 - INFO - Selenium used: 0
+2025-09-20 19:54:17,446 - INFO - Total images: 0
+2025-09-20 19:54:17,446 - INFO - Success rate: 0.0%
+2025-09-20 19:54:17,446 - INFO - Avg images per property: 0.0
+2025-09-20 19:56:51,461 - INFO - Loaded 4 properties to process
+2025-09-20 19:56:51,461 - INFO - Processing 4 properties
+2025-09-20 19:56:51,461 - INFO - Selenium available: True
+2025-09-20 19:56:51,461 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:56:51,461 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:56:51,701 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:56:51,701 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:56:51,738 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:56:51,739 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:56:54,742 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 19:56:54,744 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 19:57:06,362 - INFO - No gallery-see-all-photos-button found on https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/, skipping image extraction
+2025-09-20 19:57:06,364 - INFO - No gallery-see-all-photos-button found on https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/, skipping image extraction
+2025-09-20 19:57:06,568 - INFO - Skipped https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 19:57:06,570 - INFO - Skipped https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 19:57:11,574 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:57:11,575 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 19:57:11,692 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:57:11,692 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:57:11,712 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 19:57:11,712 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 19:57:13,710 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 19:57:13,711 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 19:57:25,129 - INFO - No gallery-see-all-photos-button found on https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/, skipping image extraction
+2025-09-20 19:57:25,217 - INFO - No gallery-see-all-photos-button found on https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, skipping image extraction
+2025-09-20 19:57:25,328 - INFO - Skipped https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 19:57:25,329 - INFO - Skipped https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 19:57:30,340 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 19:57:30,340 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 19:57:30,340 - INFO - Total properties: 4
+2025-09-20 19:57:30,340 - INFO - Processed: 4
+2025-09-20 19:57:30,341 - INFO - Successful: 0
+2025-09-20 19:57:30,341 - INFO - Failed: 0
+2025-09-20 19:57:30,341 - INFO - Skipped (no gallery button): 4
+2025-09-20 19:57:30,341 - INFO - Selenium used: 0
+2025-09-20 19:57:30,341 - INFO - Total images: 0
+2025-09-20 19:57:30,341 - INFO - Success rate: 0.0%
+2025-09-20 19:57:30,341 - INFO - Avg images per property: 0.0
+2025-09-20 20:01:01,639 - INFO - Loaded 4 properties to process
+2025-09-20 20:01:01,640 - INFO - Processing 4 properties
+2025-09-20 20:01:01,640 - INFO - Selenium available: True
+2025-09-20 20:01:01,640 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:01:01,640 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:01:01,886 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:01:01,886 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:01:01,907 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:01:01,907 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:01:04,546 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:01:04,546 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:01:15,011 - INFO - No gallery button or 'See all' text found on https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/, skipping image extraction
+2025-09-20 20:01:15,136 - INFO - Skipped https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:01:17,784 - INFO - No gallery button or 'See all' text found on https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/, skipping image extraction
+2025-09-20 20:01:17,894 - INFO - Skipped https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:01:20,144 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:01:20,277 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:01:20,277 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:01:21,634 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:01:22,899 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:01:23,017 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:01:23,018 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:01:24,145 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:01:32,481 - INFO - No gallery button or 'See all' text found on https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, skipping image extraction
+2025-09-20 20:01:32,702 - INFO - Skipped https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:01:35,313 - INFO - No gallery button or 'See all' text found on https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/, skipping image extraction
+2025-09-20 20:01:35,437 - INFO - Skipped https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:01:40,444 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:01:40,444 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:01:40,444 - INFO - Total properties: 4
+2025-09-20 20:01:40,444 - INFO - Processed: 4
+2025-09-20 20:01:40,444 - INFO - Successful: 0
+2025-09-20 20:01:40,444 - INFO - Failed: 0
+2025-09-20 20:01:40,444 - INFO - Skipped (no gallery button): 4
+2025-09-20 20:01:40,444 - INFO - Selenium used: 0
+2025-09-20 20:01:40,444 - INFO - Total images: 0
+2025-09-20 20:01:40,444 - INFO - Success rate: 0.0%
+2025-09-20 20:01:40,444 - INFO - Avg images per property: 0.0
+2025-09-20 20:02:45,609 - INFO - Loaded 4 properties to process
+2025-09-20 20:02:45,610 - INFO - Processing 4 properties
+2025-09-20 20:02:45,610 - INFO - Selenium available: True
+2025-09-20 20:02:45,610 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:02:45,610 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:02:45,839 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:02:45,839 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:02:45,844 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:02:45,844 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:02:48,180 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:02:48,182 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:03:04,580 - INFO - No gallery button or 'See all' text found on https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/, skipping image extraction
+2025-09-20 20:03:04,593 - INFO - No gallery button or 'See all' text found on https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/, skipping image extraction
+2025-09-20 20:03:04,841 - INFO - Skipped https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:03:04,842 - INFO - Skipped https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:03:09,863 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:03:09,873 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:03:10,093 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:03:10,095 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:03:10,095 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:03:10,096 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:03:16,726 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:03:16,728 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:03:33,249 - INFO - No gallery button or 'See all' text found on https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, skipping image extraction
+2025-09-20 20:03:33,504 - INFO - Skipped https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:03:40,577 - INFO - Richmond property detected - proceeding with image extraction despite no button found
+2025-09-20 20:03:44,274 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:03:49,287 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:03:49,288 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:03:49,288 - INFO - Total properties: 4
+2025-09-20 20:03:49,288 - INFO - Processed: 4
+2025-09-20 20:03:49,288 - INFO - Successful: 1
+2025-09-20 20:03:49,288 - INFO - Failed: 0
+2025-09-20 20:03:49,288 - INFO - Skipped (no gallery button): 3
+2025-09-20 20:03:49,288 - INFO - Selenium used: 1
+2025-09-20 20:03:49,288 - INFO - Total images: 50
+2025-09-20 20:03:49,289 - INFO - Success rate: 25.0%
+2025-09-20 20:03:49,289 - INFO - Avg images per property: 50.0
+2025-09-20 20:05:08,065 - INFO - Loaded 3 properties to process
+2025-09-20 20:05:08,065 - INFO - Processing 3 properties
+2025-09-20 20:05:08,065 - INFO - Selenium available: True
+2025-09-20 20:05:08,065 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:05:08,066 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:05:08,329 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:05:08,329 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:05:08,337 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:05:08,337 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:05:10,528 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:05:10,529 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:05:26,967 - INFO - No specific gallery button found on https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/, but proceeding with image extraction
+2025-09-20 20:05:27,919 - INFO - No specific gallery button found on https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/, but proceeding with image extraction
+2025-09-20 20:05:30,575 - INFO - Found 50 images for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:05:31,465 - INFO - Found 50 images for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:05:35,586 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:05:35,728 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:05:35,728 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:05:37,232 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:05:52,940 - INFO - No specific gallery button found on https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, but proceeding with image extraction
+2025-09-20 20:05:56,583 - INFO - Found 50 images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:06:01,595 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:06:01,595 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:06:01,596 - INFO - Total properties: 3
+2025-09-20 20:06:01,596 - INFO - Processed: 3
+2025-09-20 20:06:01,596 - INFO - Successful: 3
+2025-09-20 20:06:01,596 - INFO - Failed: 0
+2025-09-20 20:06:01,596 - INFO - Skipped (no gallery button): 0
+2025-09-20 20:06:01,596 - INFO - Selenium used: 3
+2025-09-20 20:06:01,596 - INFO - Total images: 150
+2025-09-20 20:06:01,596 - INFO - Success rate: 100.0%
+2025-09-20 20:06:01,596 - INFO - Avg images per property: 50.0
+2025-09-20 20:08:41,543 - INFO - Loaded 2 properties to process
+2025-09-20 20:08:41,543 - INFO - Processing 2 properties
+2025-09-20 20:08:41,543 - INFO - Selenium available: True
+2025-09-20 20:08:41,543 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:08:41,543 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:08:41,759 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:08:41,759 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:08:41,774 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:08:41,775 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:08:43,698 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:08:43,699 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:08:59,492 - INFO - No gallery-see-all-photos-button found on https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, skipping image extraction
+2025-09-20 20:08:59,661 - INFO - Skipped https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:09:02,607 - INFO - No gallery-see-all-photos-button found on https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/, skipping image extraction
+2025-09-20 20:09:02,721 - INFO - Skipped https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ - no gallery-see-all-photos-button found
+2025-09-20 20:09:07,728 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:09:07,728 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:09:07,729 - INFO - Total properties: 2
+2025-09-20 20:09:07,729 - INFO - Processed: 2
+2025-09-20 20:09:07,729 - INFO - Successful: 0
+2025-09-20 20:09:07,729 - INFO - Failed: 0
+2025-09-20 20:09:07,729 - INFO - Skipped (no gallery button): 2
+2025-09-20 20:09:07,729 - INFO - Selenium used: 0
+2025-09-20 20:09:07,729 - INFO - Total images: 0
+2025-09-20 20:09:07,729 - INFO - Success rate: 0.0%
+2025-09-20 20:09:07,729 - INFO - Avg images per property: 0.0
+2025-09-20 20:10:10,199 - INFO - Loaded 2 properties to process
+2025-09-20 20:10:10,199 - INFO - Processing 2 properties
+2025-09-20 20:10:10,199 - INFO - Selenium available: True
+2025-09-20 20:10:10,199 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:10:10,199 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:10:10,436 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:10:10,436 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:10:10,436 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:10:10,436 - INFO - Trying Selenium to double-check gallery button for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:10:12,846 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:10:12,848 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:10:29,807 - INFO - No <button data-testid='gallery-see-all-photos-button'> found on https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, skipping image extraction
+2025-09-20 20:10:29,985 - INFO - Skipped https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/ - no <button data-testid='gallery-see-all-photos-button'> found
+2025-09-20 20:10:32,305 - INFO - No <button data-testid='gallery-see-all-photos-button'> found on https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/, skipping image extraction
+2025-09-20 20:10:32,422 - INFO - Skipped https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ - no <button data-testid='gallery-see-all-photos-button'> found
+2025-09-20 20:10:37,431 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:10:37,432 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:10:37,432 - INFO - Total properties: 2
+2025-09-20 20:10:37,432 - INFO - Processed: 2
+2025-09-20 20:10:37,432 - INFO - Successful: 0
+2025-09-20 20:10:37,432 - INFO - Failed: 0
+2025-09-20 20:10:37,432 - INFO - Skipped (no gallery button): 2
+2025-09-20 20:10:37,432 - INFO - Selenium used: 0
+2025-09-20 20:10:37,432 - INFO - Total images: 0
+2025-09-20 20:10:37,433 - INFO - Success rate: 0.0%
+2025-09-20 20:10:37,433 - INFO - Avg images per property: 0.0
+2025-09-20 20:11:52,972 - INFO - Loaded 2 properties to process
+2025-09-20 20:11:52,972 - INFO - Processing 2 properties
+2025-09-20 20:11:52,972 - INFO - Selenium available: True
+2025-09-20 20:11:52,972 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:11:52,972 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:11:55,832 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:11:55,833 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:12:12,483 - INFO - No <button data-testid='gallery-see-all-photos-button'> found on https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, skipping image extraction
+2025-09-20 20:12:12,689 - INFO - Skipped https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/ - no <button data-testid='gallery-see-all-photos-button'> found
+2025-09-20 20:12:17,327 - INFO - No <button data-testid='gallery-see-all-photos-button'> found on https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/, skipping image extraction
+2025-09-20 20:12:17,465 - INFO - Skipped https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ - no <button data-testid='gallery-see-all-photos-button'> found
+2025-09-20 20:12:22,474 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:12:22,474 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:12:22,474 - INFO - Total properties: 2
+2025-09-20 20:12:22,474 - INFO - Processed: 2
+2025-09-20 20:12:22,474 - INFO - Successful: 0
+2025-09-20 20:12:22,474 - INFO - Failed: 0
+2025-09-20 20:12:22,474 - INFO - Skipped (no gallery button): 2
+2025-09-20 20:12:22,474 - INFO - Selenium used: 0
+2025-09-20 20:12:22,474 - INFO - Total images: 0
+2025-09-20 20:12:22,474 - INFO - Success rate: 0.0%
+2025-09-20 20:12:22,474 - INFO - Avg images per property: 0.0
+2025-09-20 20:16:28,190 - ERROR - Error loading JSON: [Errno 2] No such file or directory: '../data/items.json'
+2025-09-20 20:16:28,190 - INFO - No properties need processing
+2025-09-20 20:16:42,165 - ERROR - Error loading JSON: Expecting value: line 90 column 1 (char 2348)
+2025-09-20 20:16:42,165 - INFO - No properties need processing
+2025-09-20 20:17:10,309 - INFO - Loaded 4 properties to process
+2025-09-20 20:17:10,309 - INFO - Processing 4 properties
+2025-09-20 20:17:10,309 - INFO - Selenium available: True
+2025-09-20 20:17:10,309 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:17:10,309 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:17:10,581 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:17:10,581 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:17:10,593 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:17:10,593 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:17:13,741 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:17:13,742 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:17:29,811 - INFO - No gallery button found for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/, skipping image extraction
+2025-09-20 20:17:29,815 - INFO - No gallery button found for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/, skipping image extraction
+2025-09-20 20:17:30,048 - WARNING - No images found for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:17:30,058 - WARNING - No images found for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:17:35,056 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:17:35,067 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:17:35,190 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:17:35,191 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:17:35,206 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:17:35,207 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:17:37,106 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:17:37,107 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:17:48,129 - INFO - No gallery button found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/, skipping image extraction
+2025-09-20 20:17:48,272 - WARNING - No images found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:17:51,107 - INFO - No gallery button found for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/, skipping image extraction
+2025-09-20 20:17:51,236 - WARNING - No images found for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:17:56,245 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:17:56,245 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:17:56,245 - INFO - Total properties: 4
+2025-09-20 20:17:56,245 - INFO - Processed: 4
+2025-09-20 20:17:56,245 - INFO - Successful: 0
+2025-09-20 20:17:56,246 - INFO - Failed: 4
+2025-09-20 20:17:56,246 - INFO - Selenium used: 0
+2025-09-20 20:17:56,246 - INFO - Total images: 0
+2025-09-20 20:17:56,246 - INFO - Success rate: 0.0%
+2025-09-20 20:17:56,246 - INFO - Avg images per property: 0.0
+2025-09-20 20:18:59,712 - INFO - Loaded 4 properties to process
+2025-09-20 20:18:59,712 - INFO - Processing 4 properties
+2025-09-20 20:18:59,713 - INFO - Selenium available: True
+2025-09-20 20:18:59,713 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:18:59,713 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:18:59,952 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:18:59,953 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:18:59,953 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:18:59,954 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:19:02,775 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:19:02,776 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:19:24,419 - INFO - No gallery button found for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/ after waiting, skipping image extraction
+2025-09-20 20:19:24,462 - INFO - No gallery button found for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/ after waiting, skipping image extraction
+2025-09-20 20:19:24,670 - WARNING - No images found for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:19:25,653 - WARNING - No images found for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:19:29,679 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:19:29,815 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:19:29,815 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:19:30,655 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:19:30,752 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:19:30,752 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:19:31,281 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:19:31,898 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:19:53,450 - INFO - No gallery button found for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/ after waiting, skipping image extraction
+2025-09-20 20:19:53,620 - WARNING - No images found for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:19:57,020 - INFO - No gallery button found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ after waiting, skipping image extraction
+2025-09-20 20:19:57,141 - WARNING - No images found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:20:02,153 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:20:02,153 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:20:02,154 - INFO - Total properties: 4
+2025-09-20 20:20:02,154 - INFO - Processed: 4
+2025-09-20 20:20:02,154 - INFO - Successful: 0
+2025-09-20 20:20:02,154 - INFO - Failed: 4
+2025-09-20 20:20:02,154 - INFO - Selenium used: 0
+2025-09-20 20:20:02,154 - INFO - Total images: 0
+2025-09-20 20:20:02,154 - INFO - Success rate: 0.0%
+2025-09-20 20:20:02,154 - INFO - Avg images per property: 0.0
+2025-09-20 20:20:30,335 - INFO - Loaded 4 properties to process
+2025-09-20 20:20:30,335 - INFO - Processing 1 properties
+2025-09-20 20:20:30,335 - INFO - Selenium available: True
+2025-09-20 20:20:30,336 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:20:30,622 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:20:30,624 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:20:32,813 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:20:44,110 - DEBUG - Page title: 3416 Floyd Ave, Richmond, VA 23221 | Zillow
+2025-09-20 20:20:54,398 - DEBUG - Gallery-related elements found: []
+2025-09-20 20:20:54,421 - INFO - No gallery button found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ after waiting, skipping image extraction
+2025-09-20 20:20:55,613 - WARNING - No images found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:21:00,627 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:21:00,627 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:21:00,627 - INFO - Total properties: 1
+2025-09-20 20:21:00,627 - INFO - Processed: 1
+2025-09-20 20:21:00,627 - INFO - Successful: 0
+2025-09-20 20:21:00,627 - INFO - Failed: 1
+2025-09-20 20:21:00,627 - INFO - Selenium used: 0
+2025-09-20 20:21:00,628 - INFO - Total images: 0
+2025-09-20 20:21:00,628 - INFO - Success rate: 0.0%
+2025-09-20 20:21:00,628 - INFO - Avg images per property: 0.0
+2025-09-20 20:21:11,956 - INFO - Loaded 4 properties to process
+2025-09-20 20:21:11,956 - INFO - Processing 1 properties
+2025-09-20 20:21:11,957 - INFO - Selenium available: True
+2025-09-20 20:21:11,957 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:21:12,189 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:21:12,189 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:21:14,378 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:21:27,243 - DEBUG - Page title: 3416 Floyd Ave, Richmond, VA 23221 | Zillow
+2025-09-20 20:21:37,506 - DEBUG - Gallery-related elements found: []
+2025-09-20 20:21:37,560 - INFO - No gallery button found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ after waiting, skipping image extraction
+2025-09-20 20:21:37,753 - WARNING - No images found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:21:42,768 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:21:42,768 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:21:42,768 - INFO - Total properties: 1
+2025-09-20 20:21:42,768 - INFO - Processed: 1
+2025-09-20 20:21:42,769 - INFO - Successful: 0
+2025-09-20 20:21:42,769 - INFO - Failed: 1
+2025-09-20 20:21:42,769 - INFO - Selenium used: 0
+2025-09-20 20:21:42,769 - INFO - Total images: 0
+2025-09-20 20:21:42,769 - INFO - Success rate: 0.0%
+2025-09-20 20:21:42,769 - INFO - Avg images per property: 0.0
+2025-09-20 20:22:13,201 - INFO - Loaded 4 properties to process
+2025-09-20 20:22:13,201 - INFO - Processing 1 properties
+2025-09-20 20:22:13,201 - INFO - Selenium available: True
+2025-09-20 20:22:13,201 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:22:13,410 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:22:13,410 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:22:15,377 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:22:34,373 - DEBUG - Page title: 3416 Floyd Ave, Richmond, VA 23221 | Zillow
+2025-09-20 20:22:44,800 - DEBUG - Gallery-related elements found: []
+2025-09-20 20:22:44,831 - INFO - No gallery button found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/ after waiting, skipping image extraction
+2025-09-20 20:22:45,079 - WARNING - No images found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:22:50,101 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:22:50,102 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:22:50,102 - INFO - Total properties: 1
+2025-09-20 20:22:50,103 - INFO - Processed: 1
+2025-09-20 20:22:50,103 - INFO - Successful: 0
+2025-09-20 20:22:50,103 - INFO - Failed: 1
+2025-09-20 20:22:50,103 - INFO - Selenium used: 0
+2025-09-20 20:22:50,103 - INFO - Total images: 0
+2025-09-20 20:22:50,103 - INFO - Success rate: 0.0%
+2025-09-20 20:22:50,103 - INFO - Avg images per property: 0.0
+2025-09-20 20:23:12,283 - INFO - Loaded 4 properties to process
+2025-09-20 20:23:12,292 - INFO - Processing 1 properties
+2025-09-20 20:23:12,292 - INFO - Selenium available: True
+2025-09-20 20:23:12,293 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:23:12,689 - DEBUG - Requests method failed for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/: 403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:23:12,689 - INFO - Using Selenium fallback for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:23:19,709 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:23:40,204 - DEBUG - Page title: 3416 Floyd Ave, Richmond, VA 23221 | Zillow
+2025-09-20 20:23:40,207 - INFO - Proceeding with image extraction for testing (gallery check temporarily disabled)
+2025-09-20 20:23:40,913 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:23:45,943 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:23:45,947 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:23:45,948 - INFO - Total properties: 1
+2025-09-20 20:23:45,948 - INFO - Processed: 1
+2025-09-20 20:23:45,948 - INFO - Successful: 1
+2025-09-20 20:23:45,948 - INFO - Failed: 0
+2025-09-20 20:23:45,948 - INFO - Selenium used: 1
+2025-09-20 20:23:45,948 - INFO - Total images: 50
+2025-09-20 20:23:45,948 - INFO - Success rate: 100.0%
+2025-09-20 20:23:45,948 - INFO - Avg images per property: 50.0
+2025-09-20 20:30:14,826 - INFO - Loaded 3 properties to process
+2025-09-20 20:30:14,826 - INFO - Processing 3 properties
+2025-09-20 20:30:14,826 - INFO - Selenium available: True
+2025-09-20 20:30:14,826 - INFO - Processing: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:30:14,826 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:30:17,404 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:30:28,116 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:30:34,213 - INFO - Found 50 images for https://www.zillow.com/homedetails/245-N-Sylmar-Ave-Fresno-CA-93727/18759893_zpid/
+2025-09-20 20:30:39,221 - INFO - Processing: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:30:39,229 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:30:41,280 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:30:51,828 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:30:57,485 - INFO - Found 50 images for https://www.zillow.com/homedetails/1884-N-Apricot-Ave-Fresno-CA-93727/449924626_zpid/
+2025-09-20 20:31:02,492 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:31:02,493 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:31:04,127 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:31:14,627 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:31:20,304 - INFO - Found 50 images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:31:25,317 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:31:25,318 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:31:25,318 - INFO - Total properties: 3
+2025-09-20 20:31:25,318 - INFO - Processed: 3
+2025-09-20 20:31:25,318 - INFO - Successful: 3
+2025-09-20 20:31:25,318 - INFO - Failed: 0
+2025-09-20 20:31:25,318 - INFO - Selenium used: 3
+2025-09-20 20:31:25,318 - INFO - Total images: 150
+2025-09-20 20:31:25,318 - INFO - Success rate: 100.0%
+2025-09-20 20:31:25,318 - INFO - Avg images per property: 50.0
+2025-09-20 20:33:09,413 - INFO - Loaded 2 properties to process
+2025-09-20 20:33:09,413 - INFO - Processing 2 properties
+2025-09-20 20:33:09,413 - INFO - Selenium available: True
+2025-09-20 20:33:09,413 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:33:09,414 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:33:11,288 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:33:21,815 - DEBUG - StyledGallerySeeAllPhotosButton not found for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:33:21,820 - INFO - No StyledGallerySeeAllPhotosButton found, but proceeding with extraction for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:33:21,820 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:33:27,441 - INFO - Found 50 images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:33:32,447 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:33:32,452 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:33:34,822 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:33:46,747 - DEBUG - StyledGallerySeeAllPhotosButton not found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:33:46,754 - INFO - No StyledGallerySeeAllPhotosButton found, but proceeding with extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:33:46,754 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:33:52,343 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:33:57,360 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:33:57,360 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:33:57,361 - INFO - Total properties: 2
+2025-09-20 20:33:57,361 - INFO - Processed: 2
+2025-09-20 20:33:57,361 - INFO - Successful: 2
+2025-09-20 20:33:57,361 - INFO - Failed: 0
+2025-09-20 20:33:57,361 - INFO - Selenium used: 2
+2025-09-20 20:33:57,361 - INFO - Total images: 100
+2025-09-20 20:33:57,361 - INFO - Success rate: 100.0%
+2025-09-20 20:33:57,361 - INFO - Avg images per property: 50.0
+2025-09-20 20:34:39,767 - INFO - Loaded 0 properties to process
+2025-09-20 20:34:39,767 - INFO - No properties need processing
+2025-09-20 20:36:06,352 - INFO - Loaded 1 properties to process
+2025-09-20 20:36:06,352 - INFO - Processing 1 properties
+2025-09-20 20:36:06,352 - INFO - Selenium available: True
+2025-09-20 20:36:06,353 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:36:06,353 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:36:09,132 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:36:24,053 - INFO - ❌ No StyledGallerySeeAllPhotosButton found for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:36:24,054 - DEBUG - Found 1 other gallery-related elements
+2025-09-20 20:36:24,054 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponen', testid='None'
+2025-09-20 20:36:24,054 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:36:24,054 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:36:29,670 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:36:34,694 - INFO - Created backup: /Users/jasonshao/Code/homeguessr/data/test_items.json.enhanced_backup
+2025-09-20 20:36:34,696 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/test_items.json
+2025-09-20 20:36:34,696 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:36:34,696 - INFO - Total properties: 1
+2025-09-20 20:36:34,696 - INFO - Processed: 1
+2025-09-20 20:36:34,696 - INFO - Successful: 1
+2025-09-20 20:36:34,696 - INFO - Failed: 0
+2025-09-20 20:36:34,696 - INFO - Selenium used: 1
+2025-09-20 20:36:34,696 - INFO - Total images: 50
+2025-09-20 20:36:34,696 - INFO - Success rate: 100.0%
+2025-09-20 20:36:34,696 - INFO - Avg images per property: 50.0
+2025-09-20 20:42:40,779 - INFO - Loaded 1 properties to process
+2025-09-20 20:42:40,780 - INFO - Processing 1 properties
+2025-09-20 20:42:40,780 - INFO - Selenium available: True
+2025-09-20 20:42:40,780 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:42:40,780 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:42:43,677 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:42:57,397 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:42:57,398 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 20:42:57,398 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 20:42:57,398 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:42:57,398 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:43:03,031 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:43:08,043 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/test_items.json
+2025-09-20 20:43:08,044 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:43:08,044 - INFO - Total properties: 1
+2025-09-20 20:43:08,044 - INFO - Processed: 1
+2025-09-20 20:43:08,044 - INFO - Successful: 1
+2025-09-20 20:43:08,044 - INFO - Failed: 0
+2025-09-20 20:43:08,044 - INFO - Selenium used: 1
+2025-09-20 20:43:08,044 - INFO - Total images: 50
+2025-09-20 20:43:08,044 - INFO - Success rate: 100.0%
+2025-09-20 20:43:08,044 - INFO - Avg images per property: 50.0
+2025-09-20 20:44:04,372 - INFO - Loaded 0 properties to process
+2025-09-20 20:44:04,372 - INFO - No properties need processing
+2025-09-20 20:44:54,215 - INFO - Loaded 2 properties to process
+2025-09-20 20:44:54,215 - INFO - Processing 2 properties
+2025-09-20 20:44:54,215 - INFO - Selenium available: True
+2025-09-20 20:44:54,215 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:44:54,216 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:44:56,340 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:45:10,010 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:45:10,011 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 20:45:10,011 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 20:45:10,011 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:45:10,011 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:45:15,541 - INFO - Found 50 images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 20:45:20,547 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:45:20,553 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:45:21,924 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:45:37,295 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:45:37,295 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 20:45:37,295 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 20:45:37,296 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:45:37,296 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:45:43,019 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:45:48,033 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 20:45:48,033 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:45:48,033 - INFO - Total properties: 2
+2025-09-20 20:45:48,033 - INFO - Processed: 2
+2025-09-20 20:45:48,033 - INFO - Successful: 2
+2025-09-20 20:45:48,033 - INFO - Failed: 0
+2025-09-20 20:45:48,033 - INFO - Selenium used: 2
+2025-09-20 20:45:48,033 - INFO - Total images: 100
+2025-09-20 20:45:48,033 - INFO - Success rate: 100.0%
+2025-09-20 20:45:48,034 - INFO - Avg images per property: 50.0
+2025-09-20 20:47:35,344 - INFO - Loaded 1 properties to process
+2025-09-20 20:47:35,344 - INFO - Processing 1 properties
+2025-09-20 20:47:35,344 - INFO - Selenium available: True
+2025-09-20 20:47:35,344 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:47:35,344 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:47:37,313 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:47:51,976 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:47:51,978 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 20:47:51,978 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 20:47:51,978 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:47:51,978 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:47:57,768 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:48:02,784 - INFO - Created backup: /Users/jasonshao/Code/homeguessr/data/test_clean_urls.json.enhanced_backup
+2025-09-20 20:48:02,786 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/test_clean_urls.json
+2025-09-20 20:48:02,786 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 20:48:02,786 - INFO - Total properties: 1
+2025-09-20 20:48:02,786 - INFO - Processed: 1
+2025-09-20 20:48:02,786 - INFO - Successful: 1
+2025-09-20 20:48:02,786 - INFO - Failed: 0
+2025-09-20 20:48:02,786 - INFO - Selenium used: 1
+2025-09-20 20:48:02,786 - INFO - Total images: 50
+2025-09-20 20:48:02,787 - INFO - Success rate: 100.0%
+2025-09-20 20:48:02,787 - INFO - Avg images per property: 50.0
+2025-09-20 20:56:24,286 - ERROR - Error loading JSON: [Errno 2] No such file or directory: '/Users/jasonshao/Code/homeguessr/data/test_clean_urls.json'
+2025-09-20 20:56:24,287 - INFO - No properties need processing
+2025-09-20 20:56:29,562 - ERROR - Error loading JSON: [Errno 2] No such file or directory: '/Users/jasonshao/Code/homeguessr/data/test_clean_urls.json'
+2025-09-20 20:56:29,562 - INFO - No properties need processing
+2025-09-20 20:56:48,344 - INFO - Loaded 0 properties to process
+2025-09-20 20:56:48,345 - INFO - No properties need processing
+2025-09-20 20:59:40,727 - INFO - Loaded 1 properties to process
+2025-09-20 20:59:40,727 - INFO - Processing 1 properties
+2025-09-20 20:59:40,727 - INFO - Selenium available: True
+2025-09-20 20:59:40,728 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:59:40,728 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:59:43,644 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:59:58,573 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:59:58,591 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 20:59:58,591 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 20:59:58,591 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 20:59:58,591 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:00:03,628 - DEBUG - Extracting photos.zillowstatic.com/fp URLs from page source
+2025-09-20 21:00:03,756 - DEBUG - Pattern 'https://photos\.zillowstatic\.com/fp/[^"\'\\s]+...' found 1770 matches
+2025-09-20 21:00:03,762 - DEBUG - Pattern '"(https://photos\.zillowstatic\.com/fp/[^"]*)"...' found 1752 matches
+2025-09-20 21:00:03,767 - DEBUG - Pattern ''(https://photos\.zillowstatic\.com/fp/[^']*)'...' found 0 matches
+2025-09-20 21:00:03,779 - DEBUG - Pattern 'https:\\/\\/photos\\.zillowstatic\\.com\\/fp\\/[^"...' found 0 matches
+2025-09-20 21:00:03,781 - DEBUG - Pattern '\\"(https://photos\\.zillowstatic\\.com/fp/[^"]*)\...' found 0 matches
+2025-09-20 21:00:03,901 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:00:08,917 - INFO - Created backup: /Users/jasonshao/Code/homeguessr/data/test_fp_extraction.json.enhanced_backup
+2025-09-20 21:00:08,918 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/test_fp_extraction.json
+2025-09-20 21:00:08,919 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 21:00:08,919 - INFO - Total properties: 1
+2025-09-20 21:00:08,919 - INFO - Processed: 1
+2025-09-20 21:00:08,919 - INFO - Successful: 1
+2025-09-20 21:00:08,919 - INFO - Failed: 0
+2025-09-20 21:00:08,919 - INFO - Selenium used: 1
+2025-09-20 21:00:08,919 - INFO - Total images: 50
+2025-09-20 21:00:08,919 - INFO - Success rate: 100.0%
+2025-09-20 21:00:08,919 - INFO - Avg images per property: 50.0
+2025-09-20 21:01:05,453 - INFO - Loaded 0 properties to process
+2025-09-20 21:01:05,453 - INFO - No properties need processing
+2025-09-20 21:03:55,516 - INFO - Loaded 1 properties to process
+2025-09-20 21:03:55,516 - INFO - Processing 1 properties
+2025-09-20 21:03:55,516 - INFO - Selenium available: True
+2025-09-20 21:03:55,516 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:03:55,517 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:03:57,423 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:04:11,290 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:04:11,291 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 21:04:11,291 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 21:04:11,291 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:04:11,291 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:04:16,357 - DEBUG - Extracting photos.zillowstatic.com/fp URLs from page source
+2025-09-20 21:04:16,476 - DEBUG - Pattern 'https://photos\.zillowstatic\.com/fp/[^"\'\\s]+...' found 1770 matches
+2025-09-20 21:04:16,482 - DEBUG - Pattern '"(https://photos\.zillowstatic\.com/fp/[^"]*)"...' found 1752 matches
+2025-09-20 21:04:16,488 - DEBUG - Pattern ''(https://photos\.zillowstatic\.com/fp/[^']*)'...' found 0 matches
+2025-09-20 21:04:16,500 - DEBUG - Pattern 'https:\\/\\/photos\\.zillowstatic\\.com\\/fp\\/[^"...' found 0 matches
+2025-09-20 21:04:16,502 - DEBUG - Pattern '\\"(https://photos\\.zillowstatic\\.com/fp/[^"]*)\...' found 0 matches
+2025-09-20 21:04:16,648 - INFO - Found 200 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:04:21,663 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/test_fp_extraction.json
+2025-09-20 21:04:21,663 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 21:04:21,663 - INFO - Total properties: 1
+2025-09-20 21:04:21,663 - INFO - Processed: 1
+2025-09-20 21:04:21,663 - INFO - Successful: 1
+2025-09-20 21:04:21,663 - INFO - Failed: 0
+2025-09-20 21:04:21,663 - INFO - Selenium used: 1
+2025-09-20 21:04:21,664 - INFO - Total images: 200
+2025-09-20 21:04:21,664 - INFO - Success rate: 100.0%
+2025-09-20 21:04:21,664 - INFO - Avg images per property: 200.0
+2025-09-20 21:07:39,717 - INFO - Loaded 1 properties to process
+2025-09-20 21:07:39,718 - INFO - Processing 1 properties
+2025-09-20 21:07:39,718 - INFO - Selenium available: True
+2025-09-20 21:07:39,718 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:07:39,718 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:07:41,743 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:07:57,962 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:07:57,963 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 21:07:57,963 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 21:07:57,963 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:07:57,963 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:08:03,016 - DEBUG - Extracting photos.zillowstatic.com/fp URLs from page source
+2025-09-20 21:08:03,151 - DEBUG - Pattern 'https://photos\.zillowstatic\.com/fp/[^"\'\\s]+...' found 1770 matches
+2025-09-20 21:08:03,155 - DEBUG - Pattern '"(https://photos\.zillowstatic\.com/fp/[^"]*)"...' found 1752 matches
+2025-09-20 21:08:03,157 - DEBUG - Pattern ''(https://photos\.zillowstatic\.com/fp/[^']*)'...' found 0 matches
+2025-09-20 21:08:03,176 - DEBUG - Pattern 'https:\\/\\/photos\\.zillowstatic\\.com\\/fp\\/[^"...' found 0 matches
+2025-09-20 21:08:03,178 - DEBUG - Pattern '\\"(https://photos\\.zillowstatic\\.com/fp/[^"]*)\...' found 0 matches
+2025-09-20 21:08:03,326 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:08:08,407 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/test_fp_extraction.json
+2025-09-20 21:08:08,407 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 21:08:08,407 - INFO - Total properties: 1
+2025-09-20 21:08:08,407 - INFO - Processed: 1
+2025-09-20 21:08:08,408 - INFO - Successful: 1
+2025-09-20 21:08:08,408 - INFO - Failed: 0
+2025-09-20 21:08:08,408 - INFO - Selenium used: 1
+2025-09-20 21:08:08,408 - INFO - Total images: 50
+2025-09-20 21:08:08,408 - INFO - Success rate: 100.0%
+2025-09-20 21:08:08,408 - INFO - Avg images per property: 50.0
+2025-09-20 21:11:24,235 - INFO - Loaded 0 properties to process
+2025-09-20 21:11:24,235 - INFO - No properties need processing
+2025-09-20 21:12:04,064 - INFO - Loaded 2 properties to process
+2025-09-20 21:12:04,064 - INFO - Processing 2 properties
+2025-09-20 21:12:04,064 - INFO - Selenium available: True
+2025-09-20 21:12:04,064 - INFO - Processing: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 21:12:04,064 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 21:12:06,279 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 21:12:20,410 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 21:12:20,411 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 21:12:20,412 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 21:12:20,412 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 21:12:20,412 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 21:12:25,437 - DEBUG - Extracting photos.zillowstatic.com/fp URLs from page source
+2025-09-20 21:12:25,550 - DEBUG - Pattern 'https://photos\.zillowstatic\.com/fp/[^"\'\\s]+...' found 83 matches
+2025-09-20 21:12:25,552 - DEBUG - Pattern '"(https://photos\.zillowstatic\.com/fp/[^"]*)"...' found 77 matches
+2025-09-20 21:12:25,553 - DEBUG - Pattern ''(https://photos\.zillowstatic\.com/fp/[^']*)'...' found 0 matches
+2025-09-20 21:12:25,563 - DEBUG - Pattern 'https:\\/\\/photos\\.zillowstatic\\.com\\/fp\\/[^"...' found 0 matches
+2025-09-20 21:12:25,564 - DEBUG - Pattern '\\"(https://photos\\.zillowstatic\\.com/fp/[^"]*)\...' found 0 matches
+2025-09-20 21:12:25,674 - INFO - Found 1 images for https://www.zillow.com/homedetails/310-S-Argyle-Ave-APT-105-Fresno-CA-93727/18659954_zpid/
+2025-09-20 21:12:30,682 - INFO - Processing: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:12:30,689 - DEBUG - Using Selenium for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:12:31,928 - DEBUG - Selenium loading: https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:12:46,270 - INFO - ✅ Found 1 GalleryIntersectionNotifier element(s) for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:12:46,271 - DEBUG - Found 1 gallery-related elements total
+2025-09-20 21:12:46,271 - DEBUG -   - DIV: class='GalleryIntersectionNotifier__StyledTriggerComponent-fshdp-8-111-1__sc-1fketi7-0 ', testid='None'
+2025-09-20 21:12:46,271 - DEBUG - Proceeding with image extraction for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:12:46,271 - DEBUG - Scrolling to load images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:12:51,294 - DEBUG - Extracting photos.zillowstatic.com/fp URLs from page source
+2025-09-20 21:12:51,389 - DEBUG - Pattern 'https://photos\.zillowstatic\.com/fp/[^"\'\\s]+...' found 1770 matches
+2025-09-20 21:12:51,393 - DEBUG - Pattern '"(https://photos\.zillowstatic\.com/fp/[^"]*)"...' found 1752 matches
+2025-09-20 21:12:51,396 - DEBUG - Pattern ''(https://photos\.zillowstatic\.com/fp/[^']*)'...' found 0 matches
+2025-09-20 21:12:51,408 - DEBUG - Pattern 'https:\\/\\/photos\\.zillowstatic\\.com\\/fp\\/[^"...' found 0 matches
+2025-09-20 21:12:51,409 - DEBUG - Pattern '\\"(https://photos\\.zillowstatic\\.com/fp/[^"]*)\...' found 0 matches
+2025-09-20 21:12:51,520 - INFO - Found 50 images for https://www.zillow.com/homedetails/3416-Floyd-Ave-Richmond-VA-23221/12552335_zpid/
+2025-09-20 21:12:56,529 - INFO - Created backup: /Users/jasonshao/Code/homeguessr/data/items.json.enhanced_backup
+2025-09-20 21:12:56,530 - INFO - Updated JSON saved: /Users/jasonshao/Code/homeguessr/data/items.json
+2025-09-20 21:12:56,530 - INFO - === Enhanced Extraction Statistics ===
+2025-09-20 21:12:56,530 - INFO - Total properties: 2
+2025-09-20 21:12:56,530 - INFO - Processed: 2
+2025-09-20 21:12:56,530 - INFO - Successful: 2
+2025-09-20 21:12:56,530 - INFO - Failed: 0
+2025-09-20 21:12:56,531 - INFO - Selenium used: 2
+2025-09-20 21:12:56,531 - INFO - Total images: 51
+2025-09-20 21:12:56,531 - INFO - Success rate: 100.0%
+2025-09-20 21:12:56,531 - INFO - Avg images per property: 25.5
+2025-09-20 21:13:04,822 - INFO - Loaded 0 properties to process
+2025-09-20 21:13:04,822 - INFO - No properties need processing
+2025-09-20 21:13:13,324 - INFO - Loaded 0 properties to process
+2025-09-20 21:13:13,324 - INFO - No properties need processing
