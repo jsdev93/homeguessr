@@ -48,51 +48,41 @@ pip install -r requirements.txt
 ### Basic Usage
 
 ```bash
-python zillow_image_downloader.py
+python enhanced_zillow_extractor.py
 ```
 
 This will:
 
-- Process all properties from your `items.json` file
-- Extract up to 30 image URLs per property
+- Process all properties from your `data/items.json` file
+- Extract image URLs per property (matching the Zillow webp pattern)
 - Add an `images` array to each property object
-- Create automatic backup of original file
-- Show progress bars and detailed logging
+- Skip properties that already have images
+- Show progress and summary statistics
 
-### Advanced Configuration
+### Process a Range of Properties
 
-Edit the `config` dictionary in the `main()` function to customize behavior:
+To process only a specific range of items (by index):
 
-```python
-config = {
-    'max_workers': 3,              # Concurrent threads (2-5 recommended)
-    'delay_between_sites': 2.0,    # Seconds between property pages
-    'request_timeout': 20,         # Request timeout in seconds
-    'max_retries': 3,              # Retry attempts for failed requests
-    'max_images_per_property': 30, # Limit images per property
-    'validate_image_urls': False,  # Set True to validate each URL (slower)
-    'log_level': 'INFO'           # DEBUG for more verbose output
-}
+```bash
+python enhanced_zillow_extractor.py data/items.json 100 200
 ```
 
-### Resume Downloads
+This will process items 100 to 200 (inclusive) in your JSON file.
 
-To resume from a specific position (e.g., if interrupted):
+### Filter Properties by Image Count
 
-```python
-# In main() function, modify:
-start_index = 100    # Start from URL #100
-max_urls = 50       # Process only 50 URLs
+To remove all properties with fewer than 8 images:
+
+```bash
+python filter_items_by_images.py
 ```
 
-### Test with Limited URLs
+This will overwrite `data/items.json` with only those properties that have at least 8 images in their `images` array.
 
-For testing, limit the number of URLs processed:
+### Resume or Parallel Processing
 
-```python
-# In main() function:
-max_urls = 10  # Process only first 10 URLs
-```
+- You can run multiple instances of the script on different, non-overlapping index ranges for faster processing.
+- Do not run two processes on the same file and overlapping ranges at the same time (risk of data loss).
 
 ## Output Structure
 
