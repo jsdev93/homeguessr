@@ -17,10 +17,10 @@ export function useGameTimer(
   setGuessedZip: (zip: string) => void,
   setCountdown: (n: number | null) => void
 ) {
-  const [roundTimer, setRoundTimer] = useState<number>(30);
+  const [roundTimer, setRoundTimer] = useState<number>(60);
 
   useEffect(() => {
-    setRoundTimer(30);
+  setRoundTimer(60);
   }, [round]);
 
   useEffect(() => {

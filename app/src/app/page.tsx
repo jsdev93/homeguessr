@@ -1,23 +1,52 @@
-import React from "react";
-import Game from "../components/Game";
+"use client";
+import React, { useState } from 'react';
+import Game from '../components/Game';
 
-export default function Home() {
+const RULES = [
+  'Guess the location of the home based on images and clues.',
+  'You have 60 seconds per round.',
+  'Score points for accuracy and speed.',
+  'Play solo or challenge friends in multiplayer mode.'
+];
+
+export default function HomePage() {
+  const [playing, setPlaying] = useState(false);
+  const handlePlay = () => {
+    setPlaying(true);
+  };
+
   return (
-    <div className="font-sans min-h-screen h-screen w-full bg-gradient-to-br from-blue-100 via-white to-green-100 flex flex-col items-center justify-center px-2 sm:px-0 overflow-hidden">
-  <div className="w-full flex justify-center mb-8 flex-shrink-0 pt-8">
-        <a
-          href="/multiplayer"
-          className="px-10 py-5 bg-gradient-to-r from-blue-500 to-green-400 dark:from-blue-900 dark:to-green-800 text-white rounded-full hover:from-blue-600 hover:to-green-500 dark:hover:from-blue-800 dark:hover:to-green-700 shadow-lg text-2xl font-semibold transition"
-        >
-          Play Multiplayer
-        </a>
-      </div>
-      <h1 className="text-5xl sm:text-6xl font-extrabold mb-8 mt-2 tracking-tight text-center text-blue-700 drop-shadow-lg select-none flex-shrink-0">
-        HomeGuessr
-      </h1>
-      <div className="w-full flex flex-col items-center justify-center gap-6 flex-grow overflow-hidden">
-        <Game />
-      </div>
+    <div className="min-h-screen w-full flex flex-col items-center justify-center bg-gradient-to-br from-blue-100 to-yellow-50">
+      {!playing && (
+        <>
+          <h1 className="text-5xl font-extrabold mb-8 text-blue-700">Homeguessr</h1>
+          <div className="bg-white/80 rounded-xl shadow-lg p-8 mb-8 max-w-xl">
+            <h2 className="text-2xl font-bold mb-4 text-gray-800">Rules</h2>
+            <ul className="list-disc pl-6 text-lg text-gray-700">
+              {RULES.map((rule, i) => <li key={i}>{rule}</li>)}
+            </ul>
+          </div>
+          <div className="flex gap-6">
+            <button
+              className="px-8 py-4 bg-blue-600 text-white rounded-xl shadow font-bold text-xl hover:bg-blue-700 transition-all duration-150"
+              onClick={handlePlay}
+            >
+              Play
+            </button>
+            <a
+              href="/multiplayer"
+              className="px-8 py-4 bg-green-600 text-white rounded-xl shadow font-bold text-xl hover:bg-green-700 transition-all duration-150"
+            >
+              Multiplayer
+            </a>
+          </div>
+        </>
+      )}
+      {playing && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black">
+          <Game />
+        </div>
+      )}
     </div>
   );
 }

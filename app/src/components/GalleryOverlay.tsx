@@ -13,7 +13,10 @@ const GalleryOverlay: React.FC<GalleryOverlayProps> = ({ current, galleryIndex, 
   const images = current.images || [];
   return (
     <div className="fixed top-8 left-1/2 -translate-x-1/2 z-40 bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-6 flex flex-col items-center gap-4 animate-fade-in">
-      <div className="flex gap-2 mb-2">
+      <div
+        className="grid grid-rows-3 grid-flow-col gap-2 mb-2 overflow-y-auto max-h-24 w-full max-w-xs scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-700"
+        style={{ minHeight: '72px' }}
+      >
         {images.map((img, i) => (
           <button
             key={img}

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSession, setSession } from './sessionStore';
 import { broadcastSessionState } from './ws-broadcast';
-import itemsRaw from '../../../../data/items.json';
+import itemsRaw from '../../../../public/items.json';
 const items: any[] = Array.isArray(itemsRaw) ? itemsRaw : (itemsRaw.default || []);
 
 // POST /api/multiplayer/advance

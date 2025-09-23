@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { GoogleMap, MarkerF, Polyline, useJsApiLoader } from '@react-google-maps/api';
 
 import { ZipMarker } from '../types';
@@ -13,6 +13,7 @@ interface MapProps {
   homeLng?: number;
   selectedZip?: string | null;
   disabled?: boolean;
+  zoomToFit?: boolean | null;
 }
 
 // Helper to get ZipMarker by zip
@@ -35,12 +36,11 @@ const usaBounds = {
 
 const center = { lat: 39.8283, lng: -98.5795 };
 
-const Map: React.FC<MapProps & { darkMode?: boolean }> = ({ zips, onGuess, guessedZip, correctZip, darkMode, selectedZip, disabled }) => {
+const Map: React.FC<MapProps & { darkMode?: boolean }> = ({ zips, onGuess, guessedZip, correctZip, darkMode, selectedZip, disabled, zoomToFit }) => {
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: 'AIzaSyApkoXGVfgBnanRWJvT0uh9-p34wicoakg',
   });
-
-  if (!isLoaded) return <div className="bg-gray-800 text-white p-4 rounded">Loading map...</div>;
+  const mapRef = useRef<google.maps.Map | null>(null);
 
   // We'll need a zip-to-lat/lng lookup for all zips. If zips don't have lat/lng, just don't render the marker.
   // Hide the home pin; only show all zip pins.
@@ -48,6 +48,31 @@ const Map: React.FC<MapProps & { darkMode?: boolean }> = ({ zips, onGuess, guess
   const guessedMarker = getZipMarker(zips, guessedZip);
   const correctMarker = getZipMarker(zips, correctZip);
   const showLine = guessedZip && guessedZip !== correctZip && guessedMarker && correctMarker;
+
+  // Zoom to fit both points after guess
+  useEffect(() => {
+    if (!mapRef.current) return;
+    if (zoomToFit && guessedMarker && correctMarker) {
+      if (
+        guessedMarker.lat === correctMarker.lat &&
+        guessedMarker.lng === correctMarker.lng
+      ) {
+        // If same point, just center and zoom in
+        mapRef.current.setCenter({ lat: guessedMarker.lat, lng: guessedMarker.lng });
+        mapRef.current.setZoom(10);
+      } else {
+        const bounds = new window.google.maps.LatLngBounds();
+        bounds.extend({ lat: guessedMarker.lat, lng: guessedMarker.lng });
+        bounds.extend({ lat: correctMarker.lat, lng: correctMarker.lng });
+        mapRef.current.fitBounds(bounds, { top: 60, bottom: 60, left: 60, right: 60 });
+      }
+    } else if (!zoomToFit) {
+      mapRef.current.setCenter(center);
+      mapRef.current.setZoom(3);
+    }
+  }, [zoomToFit, guessedMarker, correctMarker]);
+
+  if (!isLoaded) return <div className="bg-gray-800 text-white p-4 rounded">Loading map...</div>;
 
   return (
     <div className={
@@ -67,6 +92,7 @@ const Map: React.FC<MapProps & { darkMode?: boolean }> = ({ zips, onGuess, guess
           fullscreenControl: false,
           scrollwheel: true
         }}
+        onLoad={map => { mapRef.current = map; }}
       >
         {zips.map(({ zip, lat, lng }) => {
           let icon = undefined;

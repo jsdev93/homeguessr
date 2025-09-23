@@ -34,12 +34,12 @@ const Game: React.FC<GameProps> = ({ sessionId, playerId, multiplayer }) => {
   const [players, setPlayers] = useState<{id:string,name:string,score:number}[]>([]);
   const [sessionState, setSessionState] = useState<import('../types').SessionState | null>(null);
   const wsRef = useRef<WebSocket|null>(null);
-  const [roundTimer, setRoundTimer] = useState<number>(30);
+  const [roundTimer, setRoundTimer] = useState<number>(60);
   const [countdown, setCountdown] = useState<number | null>(null);
   // Remove player from session on tab close
   // Start/reset round timer on new round
   useEffect(() => {
-    setRoundTimer(30);
+  setRoundTimer(60);
   }, [round]);
 
   // Countdown effect for round timer
@@ -82,8 +82,8 @@ const Game: React.FC<GameProps> = ({ sessionId, playerId, multiplayer }) => {
   // Load all zips from zips.json and map to lat/lng using items.json
   useEffect(() => {
     Promise.all([
-      import('../../data/zips.json'),
-      import('../../data/items.json')
+      import('../../public/zips.json'),
+      import('../../public/items.json')
     ]).then(([zipsMod, itemsMod]) => {
       const zipsArr = (zipsMod.default || zipsMod) as string[];
   const itemsArr = (itemsMod.default || itemsMod) as import('../types').HomeItem[];
@@ -274,6 +274,9 @@ const Game: React.FC<GameProps> = ({ sessionId, playerId, multiplayer }) => {
       </div>
     );
 
+  // Determine if we should zoom to fit (during countdown)
+  const shouldZoomToFit = guessedZip && countdown !== null;
+
   return (
     <>
       {/* Multiplayer player list and scores */}
@@ -318,6 +321,7 @@ const Game: React.FC<GameProps> = ({ sessionId, playerId, multiplayer }) => {
               darkMode={true}
               selectedZip={selectedZip}
               disabled={!!guessedZip}
+              zoomToFit={shouldZoomToFit}
             />
           </div>
           <div className="absolute top-8 right-8 z-30">
