@@ -38,7 +38,7 @@ const center = { lat: 39.8283, lng: -98.5795 };
 
 const Map: React.FC<MapProps & { darkMode?: boolean }> = ({ zips, onGuess, guessedZip, correctZip, darkMode, selectedZip, disabled, zoomToFit }) => {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyApkoXGVfgBnanRWJvT0uh9-p34wicoakg',
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
   });
   const mapRef = useRef<google.maps.Map | null>(null);
 
